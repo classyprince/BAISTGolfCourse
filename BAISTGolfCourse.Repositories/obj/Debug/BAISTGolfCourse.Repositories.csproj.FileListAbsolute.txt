@@ -1,0 +1,16 @@
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.Repositories\bin\Debug\BAISTGolfCourse.Repositories.dll.config
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.Repositories\bin\Debug\BAISTGolfCourse.Repositories.dll
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.Repositories\bin\Debug\BAISTGolfCourse.Repositories.pdb
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.Repositories\bin\Debug\BAISTGolfCourse.Data.dll
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.Repositories\bin\Debug\EntityFramework.dll
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.Repositories\bin\Debug\EntityFramework.SqlServer.dll
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.Repositories\bin\Debug\BAISTGolfCourse.Data.pdb
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.Repositories\bin\Debug\EntityFramework.xml
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.Repositories\bin\Debug\EntityFramework.SqlServer.xml
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.Repositories\obj\Debug\BAISTGolfCourse.Repositories.csprojResolveAssemblyReference.cache
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.Repositories\obj\Debug\BAISTGolfCourse.Repositories.dll
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.Repositories\obj\Debug\BAISTGolfCourse.Repositories.pdb
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.Repositories\bin\Debug\BAISTGolfCourse.Common.dll
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.Repositories\bin\Debug\AutoMapper.dll
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.Repositories\bin\Debug\BAISTGolfCourse.Common.pdb
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.Repositories\bin\Debug\AutoMapper.xml

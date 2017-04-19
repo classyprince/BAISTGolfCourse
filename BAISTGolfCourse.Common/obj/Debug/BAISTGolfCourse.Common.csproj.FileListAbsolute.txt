@@ -1,0 +1,7 @@
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.Common\bin\Debug\BAISTGolfCourse.Common.dll
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.Common\bin\Debug\BAISTGolfCourse.Common.pdb
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.Common\bin\Debug\AutoMapper.dll
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.Common\bin\Debug\AutoMapper.xml
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.Common\obj\Debug\BAISTGolfCourse.Common.csprojResolveAssemblyReference.cache
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.Common\obj\Debug\BAISTGolfCourse.Common.dll
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.Common\obj\Debug\BAISTGolfCourse.Common.pdb

@@ -1,0 +1,17 @@
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.ViewModels\bin\Debug\BAISTGolfCourse.ViewModels.dll
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.ViewModels\bin\Debug\BAISTGolfCourse.ViewModels.pdb
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.ViewModels\obj\Debug\BAISTGolfCourse.ViewModels.csprojResolveAssemblyReference.cache
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.ViewModels\obj\Debug\BAISTGolfCourse.ViewModels.dll
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.ViewModels\obj\Debug\BAISTGolfCourse.ViewModels.pdb
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.ViewModels\bin\Debug\AutoMapper.dll
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.ViewModels\bin\Debug\BAISTGolfCourse.Common.dll
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.ViewModels\bin\Debug\BAISTGolfCourse.Data.dll
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.ViewModels\bin\Debug\System.Web.Mvc.dll
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.ViewModels\bin\Debug\EntityFramework.dll
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.ViewModels\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.ViewModels\bin\Debug\BAISTGolfCourse.Common.pdb
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.ViewModels\bin\Debug\BAISTGolfCourse.Data.pdb
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.ViewModels\bin\Debug\AutoMapper.xml
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.ViewModels\bin\Debug\System.Web.Mvc.xml
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.ViewModels\bin\Debug\EntityFramework.xml
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.ViewModels\bin\Debug\Microsoft.Web.Infrastructure.xml

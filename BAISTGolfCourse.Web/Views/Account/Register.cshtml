@@ -1,0 +1,109 @@
+﻿@model BAISTGolfCourse.ViewModels.InputModels.Applicant.CreateInputModel
+@{
+    ViewBag.Title = "Sign Up For Membership";
+}
+
+<div class="row bg-home">
+    <div class="col-md-offset-3 col-md-6 col-xs-10 col-xs-offset-1 col-sm-12 sign-up-div">
+        <h3 class="text-center">Sign Up Today To Be A Member!</h3>
+        <p class="text-center">Being a member comes with its benefits. Learn more...</p>
+        @using (Html.BeginForm())
+        {
+        
+        <div class="col-xs-12 col-sm-12 col-md-5">
+            <div class="form-horizontal">
+                <div class="form-group required">
+                    @Html.LabelFor(x => x.EmailAddress, new { @class = "control-label" })
+                    @Html.TextBoxFor(x => x.EmailAddress, null, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.EmailAddress, null, new { @class = "text-danger" })
+                </div>
+                <div class="form-group required">
+                    @Html.LabelFor(x => x.Password, new { @class = "control-label" })
+                    @Html.PasswordFor(x => x.Password, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.Password, null, new { @class = "text-danger" })
+                </div>
+                <div class="form-group required">
+                    @Html.LabelFor(x => x.ConfirmPassword, new { @class = "control-label" })
+                    @Html.PasswordFor(x => x.ConfirmPassword, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.ConfirmPassword, null, new { @class = "text-danger" })
+                </div>
+                <div class="form-group required">
+                    @Html.LabelFor(x => x.FirstName, new { @class = "control-label" })
+                    @Html.TextBoxFor(x => x.FirstName, null, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.FirstName, null, new { @class = "text-danger" })
+                </div>
+                <div class="form-group required">
+                    @Html.LabelFor(x => x.LastName, new { @class = "control-label" })
+                    @Html.TextBoxFor(x => x.LastName, null, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.LastName, null, new { @class = "text-danger" })
+                </div>
+                <div class="form-group required">
+                    @Html.LabelFor(x => x.DateOfBirth, new { @class = "control-label" })
+                    @Html.TextBoxFor(x => x.DateOfBirth, null, new { @class = "form-control", id = "createDOB" })
+                    @Html.ValidationMessageFor(x => x.DateOfBirth, null, new { @class = "text-danger" })
+                </div>
+                <div class="form-group required">
+                    @Html.LabelFor(x => x.Address1, new { @class = "control-label" })
+                    @Html.TextBoxFor(x => x.Address1, null, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.Address1, null, new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(x => x.Address2, new { @class = "control-label" })
+                    @Html.TextBoxFor(x => x.Address2, null, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.Address2, null, new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group">
+                    <label>@Html.RadioButtonFor(x => x.Gender, true) Male</label>
+                    <label>@Html.RadioButtonFor(x => x.Gender, false) Female</label>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-spacious">CREATE ACCOUNT</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-1"></div>
+        <div class="col-xs-12 col-sm-12 col-md-6">
+            <div class="form-horizontal">
+                <div class="form-group required">
+                    @Html.LabelFor(x => x.City, new { @class = "control-label" })
+                    @Html.TextBoxFor(x => x.City, null, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.City, null, new { @class = "text-danger" })
+                </div>
+                <div class="form-group required">
+                    @Html.LabelFor(x => x.Province, new { @class = "control-label" })
+                    @Html.DropDownListFor(x => x.Province, new SelectList(Model.Provinces, "", ""), new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.Province, null, new { @class = "text-danger" })
+                </div>
+                <div class="form-group required">
+                    @Html.LabelFor(x => x.PostalCode, new { @class = "control-label" })
+                    @Html.TextBoxFor(x => x.PostalCode, null, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.PostalCode, null, new { @class = "text-danger" })
+                </div>
+                <div class="form-group required">
+                    @Html.LabelFor(x => x.Phone, new { @class = "control-label" })
+                    @Html.TextBoxFor(x => x.Phone, null, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.Phone, null, new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(x => x.AlternatePhone, new { @class = "control-label" })
+                    @Html.TextBoxFor(x => x.AlternatePhone, null, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.AlternatePhone, null, new { @class = "text-danger" })
+                </div>
+                <div class="form-group required">
+                    @Html.LabelFor(x => x.ShareHolder1MemberID, new { @class = "control-label" })
+                    @Html.TextBoxFor(x => x.ShareHolder1MemberID, null, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.ShareHolder1MemberID, null, new { @class = "text-danger" })
+                </div>
+                <div class="form-group required">
+                    @Html.LabelFor(x => x.ShareHolder2MemberID, new { @class = "control-label" })
+                    @Html.TextBoxFor(x => x.ShareHolder2MemberID, null, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.ShareHolder2MemberID, null, new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+        }
+    </div>
+
+</div>

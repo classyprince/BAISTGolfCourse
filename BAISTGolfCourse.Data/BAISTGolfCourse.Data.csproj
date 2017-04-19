@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ECB7336A-21E1-42AA-B713-556644A218BC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BAISTGolfCourse.Data</RootNamespace>
+    <AssemblyName>BAISTGolfCourse.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClubBAISTEntities.cs" />
+    <Compile Include="Mappings\PlayerScoreMap.cs" />
+    <Compile Include="Mappings\TeeTimeMap.cs" />
+    <Compile Include="Mappings\ReservationMap.cs" />
+    <Compile Include="Mappings\ApplicantMap.cs" />
+    <Compile Include="Mappings\EmployeeMap.cs" />
+    <Compile Include="Mappings\MemberMap.cs" />
+    <Compile Include="Migrations\201701070805386_InitialConfiguration.cs" />
+    <Compile Include="Migrations\201701070805386_InitialConfiguration.Designer.cs">
+      <DependentUpon>201701070805386_InitialConfiguration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701070810439_ApplicantEdit.cs" />
+    <Compile Include="Migrations\201701070810439_ApplicantEdit.Designer.cs">
+      <DependentUpon>201701070810439_ApplicantEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701070843185_ApplicantEditMore.cs" />
+    <Compile Include="Migrations\201701070843185_ApplicantEditMore.Designer.cs">
+      <DependentUpon>201701070843185_ApplicantEditMore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701100511200_ApplicantMemberBuild.cs" />
+    <Compile Include="Migrations\201701100511200_ApplicantMemberBuild.Designer.cs">
+      <DependentUpon>201701100511200_ApplicantMemberBuild.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701130744278_ChangeColumnNamePassword.cs" />
+    <Compile Include="Migrations\201701130744278_ChangeColumnNamePassword.Designer.cs">
+      <DependentUpon>201701130744278_ChangeColumnNamePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701140526384_ChangeSaltMember.cs" />
+    <Compile Include="Migrations\201701140526384_ChangeSaltMember.Designer.cs">
+      <DependentUpon>201701140526384_ChangeSaltMember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701140541516_ChangeApplicantOptional.cs" />
+    <Compile Include="Migrations\201701140541516_ChangeApplicantOptional.Designer.cs">
+      <DependentUpon>201701140541516_ChangeApplicantOptional.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701140616313_ChangeOptionalFields.cs" />
+    <Compile Include="Migrations\201701140616313_ChangeOptionalFields.Designer.cs">
+      <DependentUpon>201701140616313_ChangeOptionalFields.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701160338217_AddGender.cs" />
+    <Compile Include="Migrations\201701160338217_AddGender.Designer.cs">
+      <DependentUpon>201701160338217_AddGender.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701170811170_AddEmployee.cs" />
+    <Compile Include="Migrations\201701170811170_AddEmployee.Designer.cs">
+      <DependentUpon>201701170811170_AddEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701230110333_AddFieldToApplicant.cs" />
+    <Compile Include="Migrations\201701230110333_AddFieldToApplicant.Designer.cs">
+      <DependentUpon>201701230110333_AddFieldToApplicant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702260309359_ReservationTeeTime.cs" />
+    <Compile Include="Migrations\201702260309359_ReservationTeeTime.Designer.cs">
+      <DependentUpon>201702260309359_ReservationTeeTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702260322149_ReservationCompositeKey.cs" />
+    <Compile Include="Migrations\201702260322149_ReservationCompositeKey.Designer.cs">
+      <DependentUpon>201702260322149_ReservationCompositeKey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703020421266_ReservationStatus.cs" />
+    <Compile Include="Migrations\201703020421266_ReservationStatus.Designer.cs">
+      <DependentUpon>201703020421266_ReservationStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703160134204_PlayerScore.cs" />
+    <Compile Include="Migrations\201703160134204_PlayerScore.Designer.cs">
+      <DependentUpon>201703160134204_PlayerScore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703161254535_DatePlayed.cs" />
+    <Compile Include="Migrations\201703161254535_DatePlayed.Designer.cs">
+      <DependentUpon>201703161254535_DatePlayed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703161533530_Handicap.cs" />
+    <Compile Include="Migrations\201703161533530_Handicap.Designer.cs">
+      <DependentUpon>201703161533530_Handicap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703170724595_RejectionReason.cs" />
+    <Compile Include="Migrations\201703170724595_RejectionReason.Designer.cs">
+      <DependentUpon>201703170724595_RejectionReason.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703230356276_RevampArch.cs" />
+    <Compile Include="Migrations\201703230356276_RevampArch.Designer.cs">
+      <DependentUpon>201703230356276_RevampArch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\GolfCourse.cs" />
+    <Compile Include="Models\Handicap.cs" />
+    <Compile Include="Models\Hole.cs" />
+    <Compile Include="Models\Member.cs" />
+    <Compile Include="Models\Applicant.cs" />
+    <Compile Include="Models\PlayerScore.cs" />
+    <Compile Include="Models\Reservation.cs" />
+    <Compile Include="Models\TeeTime.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SeedDbEntities.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201701070805386_InitialConfiguration.resx">
+      <DependentUpon>201701070805386_InitialConfiguration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701070810439_ApplicantEdit.resx">
+      <DependentUpon>201701070810439_ApplicantEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701070843185_ApplicantEditMore.resx">
+      <DependentUpon>201701070843185_ApplicantEditMore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701100511200_ApplicantMemberBuild.resx">
+      <DependentUpon>201701100511200_ApplicantMemberBuild.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701130744278_ChangeColumnNamePassword.resx">
+      <DependentUpon>201701130744278_ChangeColumnNamePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701140526384_ChangeSaltMember.resx">
+      <DependentUpon>201701140526384_ChangeSaltMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701140541516_ChangeApplicantOptional.resx">
+      <DependentUpon>201701140541516_ChangeApplicantOptional.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701140616313_ChangeOptionalFields.resx">
+      <DependentUpon>201701140616313_ChangeOptionalFields.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701160338217_AddGender.resx">
+      <DependentUpon>201701160338217_AddGender.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701170811170_AddEmployee.resx">
+      <DependentUpon>201701170811170_AddEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701230110333_AddFieldToApplicant.resx">
+      <DependentUpon>201701230110333_AddFieldToApplicant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702260309359_ReservationTeeTime.resx">
+      <DependentUpon>201702260309359_ReservationTeeTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702260322149_ReservationCompositeKey.resx">
+      <DependentUpon>201702260322149_ReservationCompositeKey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703020421266_ReservationStatus.resx">
+      <DependentUpon>201703020421266_ReservationStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703160134204_PlayerScore.resx">
+      <DependentUpon>201703160134204_PlayerScore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703161254535_DatePlayed.resx">
+      <DependentUpon>201703161254535_DatePlayed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703161533530_Handicap.resx">
+      <DependentUpon>201703161533530_Handicap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703170724595_RejectionReason.resx">
+      <DependentUpon>201703170724595_RejectionReason.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703230356276_RevampArch.resx">
+      <DependentUpon>201703230356276_RevampArch.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BAISTGolfCourse.Common\BAISTGolfCourse.Common.csproj">
+      <Project>{902D37C5-68AA-49DB-B19F-BB44B9123091}</Project>
+      <Name>BAISTGolfCourse.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,35 @@
+﻿@model BAISTGolfCourse.ViewModels.ViewModels.Member.MemberViewModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MemberLayout.cshtml";
+}
+<ol class="breadcrumb" style="margin-left: 1%">
+    <li><a href="/">Home</a></li>
+    <li class="active">Live Help</li>
+</ol>
+<h3 class="m-l-3p">
+    <i class="fa fa-user m-r-10"></i>Having A Problem? <br />
+    <small>Please chat with one of our online representatives...</small>
+</h3>
+<span class="f-s-0" id="currentUserName">@(Model.FirstName + " " + Model.LastName)</span>
+<div class="chat-window col-md-6">
+    <div class="chat-convo margin-bottom" id="convoWindow">
+        <h3 id="startText" class="center-block text-center m-t-30"><i class="fa fa-comments m-r-10" 
+        style="color: #0094ff"></i> Start A Conversation...</h3>
+    </div>
+    <textarea id="chatTextBox" class="chat-text" placeholder="Enter Message..."></textarea>
+</div>
+
+<div class="col-md-5 col-md-offset-1">
+    <div class="side-help">
+        <h4>Chat Rules</h4>
+        <hr />
+        <ul class="list-group">
+            <li class="list-group-item m-b-5">Please do not use vulgar language when chatting</li>
+            <li class="list-group-item m-b-5">
+                BAIST Golf Course Live Help Reps only manage calls that are pertaining only to Golfand and
+                activities around the club
+            </li>
+        </ul>
+    </div>
+</div>

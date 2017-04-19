@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAISTGolfCourse.Web", "BAISTGolfCourse.Web\BAISTGolfCourse.Web.csproj", "{ABBCA2D5-F163-4A60-95EA-887C766F7A78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAISTGolfCourse.Data", "BAISTGolfCourse.Data\BAISTGolfCourse.Data.csproj", "{ECB7336A-21E1-42AA-B713-556644A218BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAISTGolfCourse.Repositories", "BAISTGolfCourse.Repositories\BAISTGolfCourse.Repositories.csproj", "{96BC45F9-6268-469B-B6D3-BFE538F2EF7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAISTGolfCourse.ViewModels", "BAISTGolfCourse.ViewModels\BAISTGolfCourse.ViewModels.csproj", "{04047E3C-419B-4F9F-976D-C0F906D777C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAISTGolfCourse.Common", "BAISTGolfCourse.Common\BAISTGolfCourse.Common.csproj", "{902D37C5-68AA-49DB-B19F-BB44B9123091}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAISTGolfCourse.BLL", "BAISTGolfCourse.BLL\BAISTGolfCourse.BLL.csproj", "{4B1E5A52-0286-4EC6-A902-753F154FA1F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABBCA2D5-F163-4A60-95EA-887C766F7A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABBCA2D5-F163-4A60-95EA-887C766F7A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABBCA2D5-F163-4A60-95EA-887C766F7A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABBCA2D5-F163-4A60-95EA-887C766F7A78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECB7336A-21E1-42AA-B713-556644A218BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECB7336A-21E1-42AA-B713-556644A218BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECB7336A-21E1-42AA-B713-556644A218BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECB7336A-21E1-42AA-B713-556644A218BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96BC45F9-6268-469B-B6D3-BFE538F2EF7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96BC45F9-6268-469B-B6D3-BFE538F2EF7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96BC45F9-6268-469B-B6D3-BFE538F2EF7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96BC45F9-6268-469B-B6D3-BFE538F2EF7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04047E3C-419B-4F9F-976D-C0F906D777C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04047E3C-419B-4F9F-976D-C0F906D777C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04047E3C-419B-4F9F-976D-C0F906D777C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04047E3C-419B-4F9F-976D-C0F906D777C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{902D37C5-68AA-49DB-B19F-BB44B9123091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{902D37C5-68AA-49DB-B19F-BB44B9123091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{902D37C5-68AA-49DB-B19F-BB44B9123091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{902D37C5-68AA-49DB-B19F-BB44B9123091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B1E5A52-0286-4EC6-A902-753F154FA1F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B1E5A52-0286-4EC6-A902-753F154FA1F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B1E5A52-0286-4EC6-A902-753F154FA1F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B1E5A52-0286-4EC6-A902-753F154FA1F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://classyprince.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BAISTGolfCourse.BLL\\BAISTGolfCourse.BLL.csproj
+		SccProjectName1 = BAISTGolfCourse.BLL
+		SccLocalPath1 = BAISTGolfCourse.BLL
+		SccProjectUniqueName2 = BAISTGolfCourse.Common\\BAISTGolfCourse.Common.csproj
+		SccProjectName2 = BAISTGolfCourse.Common
+		SccLocalPath2 = BAISTGolfCourse.Common
+		SccProjectUniqueName3 = BAISTGolfCourse.Data\\BAISTGolfCourse.Data.csproj
+		SccProjectName3 = BAISTGolfCourse.Data
+		SccLocalPath3 = BAISTGolfCourse.Data
+		SccProjectUniqueName4 = BAISTGolfCourse.Repositories\\BAISTGolfCourse.Repositories.csproj
+		SccProjectName4 = BAISTGolfCourse.Repositories
+		SccLocalPath4 = BAISTGolfCourse.Repositories
+		SccProjectUniqueName5 = BAISTGolfCourse.ViewModels\\BAISTGolfCourse.ViewModels.csproj
+		SccProjectName5 = BAISTGolfCourse.ViewModels
+		SccLocalPath5 = BAISTGolfCourse.ViewModels
+		SccProjectUniqueName6 = BAISTGolfCourse.Web\\BAISTGolfCourse.Web.csproj
+		SccProjectName6 = BAISTGolfCourse.Web
+		SccLocalPath6 = BAISTGolfCourse.Web
+	EndGlobalSection
+EndGlobal
