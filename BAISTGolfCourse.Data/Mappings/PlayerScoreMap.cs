@@ -16,6 +16,8 @@ namespace BAISTGolfCourse.Data.Mappings
 
             Property(x => x.HandicapID).IsOptional();
 
+            Property(x => x.ReservationID).IsOptional();
+
         }
     }
 

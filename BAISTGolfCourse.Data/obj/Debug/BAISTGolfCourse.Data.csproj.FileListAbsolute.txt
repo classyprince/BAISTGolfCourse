@@ -32,3 +32,4 @@ C:\Personal\BAISTGolfCourse\BAISTGolfCourse.Data\obj\Debug\BAISTGolfCourse.Data.
 C:\Personal\BAISTGolfCourse\BAISTGolfCourse.Data\obj\Debug\BAISTGolfCourse.Data.Migrations.Handicap.resources
 C:\Personal\BAISTGolfCourse\BAISTGolfCourse.Data\obj\Debug\BAISTGolfCourse.Data.Migrations.RejectionReason.resources
 C:\Personal\BAISTGolfCourse\BAISTGolfCourse.Data\obj\Debug\BAISTGolfCourse.Data.Migrations.RevampArch.resources
+C:\Personal\BAISTGolfCourse\BAISTGolfCourse.Data\obj\Debug\BAISTGolfCourse.Data.Migrations.ReservationOptional.resources

@@ -26,9 +26,8 @@ namespace BAISTGolfCourse.ViewModels.InputModels.PlayerScore
         [Range(0, 3000, ErrorMessage = "The value must be greater than 0")]
         public double Score { get; set; }
 
-        [Required(ErrorMessage = "Required")]
         [Display(Name = "Select Reservation: ")]
-        public int ReservationID { get; set; }
+        public int? ReservationID { get; set; }
 
         [Required(ErrorMessage = "Required")]
         [Display(Name = "Select Hole: ")]

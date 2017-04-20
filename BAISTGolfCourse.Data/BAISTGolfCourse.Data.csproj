@@ -136,6 +136,10 @@
     <Compile Include="Migrations\201703230356276_RevampArch.Designer.cs">
       <DependentUpon>201703230356276_RevampArch.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201704200518080_ReservationOptional.cs" />
+    <Compile Include="Migrations\201704200518080_ReservationOptional.Designer.cs">
+      <DependentUpon>201704200518080_ReservationOptional.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\GolfCourse.cs" />
@@ -206,6 +210,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201703230356276_RevampArch.resx">
       <DependentUpon>201703230356276_RevampArch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201704200518080_ReservationOptional.resx">
+      <DependentUpon>201704200518080_ReservationOptional.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
