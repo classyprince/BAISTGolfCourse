@@ -10,7 +10,7 @@ namespace BAISTGolfCourse.Data.Models
     {
         public long ID { get; set; }
         public int MemberID { get; set; }
-        public int ReservationID { get; set; }
+        public int? ReservationID { get; set; }
         public int HoleID { get; set; }
         public double Score { get; set; }
         public int? HandicapID { get; set; }
